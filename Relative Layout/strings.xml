@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">relative</string>
+    <string-array name="a1">
+        <item>DD</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+    <string-array name="a2">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+    </string-array>
+    <string-array name="a3">
+        <item>YYYY</item>
+        <item>2001</item>
+        <item>2002</item>
+    </string-array>
+</resources>

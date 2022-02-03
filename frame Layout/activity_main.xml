@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/a" />
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0EB6C"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="262dp"
+            app:srcCompat="@drawable/a1" />
+
+        <TextView
+            android:id="@+id/happ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#946BD8A9"
+            android:gravity="center"
+            android:text="MANY MORE HAPPY RETURNS OF THE DAY......"
+            android:textColor="#070606"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginTop="40dp"
+            android:background="#298CA3"
+            android:text="HAVE A GREAT DAY"
+            android:textSize="30sp" />
+    </LinearLayout>
+</FrameLayout>

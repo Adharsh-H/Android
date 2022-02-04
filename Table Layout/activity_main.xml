@@ -67,7 +67,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:maxLength="100"
-            android:text="Email" />
+            android:hint="Email" />
 
     </TableRow>
 
@@ -87,7 +87,7 @@
             android:background="#F8F5F5"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Full Name" />
+            android:hint="Full Name" />
 
     </TableRow>
 
@@ -107,7 +107,7 @@
             android:background="#F8F5F5"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Username" />
+            android:hint="Username" />
 
     </TableRow>
 
@@ -127,7 +127,7 @@
             android:background="#F8F5F5"
             android:ems="10"
             android:inputType="textPersonName|textPassword"
-            android:text="enter password" />
+            android:hint="enter password" />
 
     </TableRow>
 
